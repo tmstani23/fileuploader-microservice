@@ -2,7 +2,7 @@
 
 var express = require('express');
 var multer  = require('multer')
-var upload = multer({ dest: '/api/fileanalyse' })
+var upload = multer({ dest: 'fileanalyse/' })
 var cors = require('cors');
 
 // require and use "multer"...
